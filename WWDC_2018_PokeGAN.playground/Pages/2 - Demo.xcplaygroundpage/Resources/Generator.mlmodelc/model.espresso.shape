@@ -1,0 +1,64 @@
+{
+  "layer_shapes" : {
+    "leaky_re_lu_7_output" : {
+      "k" : 512,
+      "w" : 4,
+      "n" : 1,
+      "h" : 4
+    },
+    "input1" : {
+      "k" : 100,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "batch_normalization_8_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "batch_normalization_7_output" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "batch_normalization_6_output" : {
+      "k" : 512,
+      "w" : 4,
+      "n" : 1,
+      "h" : 4
+    },
+    "leaky_re_lu_9_output" : {
+      "k" : 128,
+      "w" : 16,
+      "n" : 1,
+      "h" : 16
+    },
+    "output1" : {
+      "k" : 3,
+      "w" : 32,
+      "n" : 1,
+      "h" : 32
+    },
+    "dense_3_output" : {
+      "k" : 8192,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "leaky_re_lu_8_output" : {
+      "k" : 256,
+      "w" : 8,
+      "n" : 1,
+      "h" : 8
+    },
+    "reshape_2_output" : {
+      "k" : 512,
+      "w" : 4,
+      "n" : 1,
+      "h" : 4
+    }
+  }
+}
